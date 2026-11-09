@@ -1,0 +1,215 @@
+```html
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>4. 残高をチャージする | 架空スマホ決済アプリ学習教材</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main>
+
+    <h1>4. 残高をチャージする</h1>
+
+    <p>
+      スマホ決済アプリの残高が足りない場合には、「チャージ」を行って、アプリで使える金額を増やします。
+    </p>
+
+    <p>
+      たとえば、残高が800円のときに400円をチャージすると、操作後の残高は1,200円になります。
+    </p>
+
+    <figure>
+      <figcaption>図4　チャージによる残高の変化</figcaption>
+      <img
+        src="images/figures/figure-04-charge-balance-change.png"
+        alt="チャージ前の残高にチャージ金額が加わり、チャージ後の残高が増える関係"
+        class="figure-image"
+      >
+    </figure>
+
+    <p>
+      この教材の架空アプリでは、ホーム画面から「チャージ」を選びます。
+    </p>
+
+    <img
+      src="images/app/screen-a0-charge.png"
+      alt="ホーム画面のチャージの位置を赤枠で示した画面"
+      class="app-screen"
+    >
+
+    <p>
+      「チャージ」を選ぶと、チャージ方法を選択する画面が表示されます。
+    </p>
+
+    <p>
+      チャージにはいくつかの方法があります。この教材では、登録した銀行口座を利用する方法と、ATMを利用する方法を中心に説明します。
+    </p>
+
+    <img
+      src="images/app/screen-e0.png"
+      alt="銀行口座、ATM、クレジットカード、オートチャージなどからチャージ方法を選択する画面"
+      class="app-screen"
+    >
+
+    <h2>4.1 銀行口座を利用してチャージする</h2>
+
+    <p>
+      あらかじめスマホ決済アプリに銀行口座を登録しておくと、その銀行口座から金額を指定して残高を増やすことができます。
+    </p>
+
+    <p>
+      この教材の架空アプリでは、チャージ方法を選ぶ画面から「銀行口座」を選びます。
+    </p>
+
+    <img
+      src="images/app/screen-e0-bank.png"
+      alt="チャージ方法を選ぶ画面の銀行口座の位置を赤枠で示した画面"
+      class="app-screen"
+    >
+
+    <p>
+      銀行口座チャージの画面では、使用する銀行口座を確認し、チャージしたい金額を入力します。
+    </p>
+
+    <img
+      src="images/app/screen-e1.png"
+      alt="銀行口座とチャージ金額の入力欄が表示されている画面"
+      class="app-screen"
+    >
+
+    <p>
+      たとえば、1,000円をチャージする場合には、金額の欄に1,000円を入力します。
+    </p>
+
+    <img
+      src="images/app/screen-e1-1.png"
+      alt="チャージ金額として1,000円を入力した画面"
+      class="app-screen"
+    >
+
+    <p>
+      入力した内容を確認して「チャージする」を選ぶと、チャージが行われます。
+    </p>
+
+    <img
+      src="images/app/screen-e4.png"
+      alt="銀行口座から1,000円のチャージが完了した画面"
+      class="app-screen"
+    >
+
+    <p>
+      操作が完了すると、指定した金額がスマホ決済アプリの残高に加わります。
+    </p>
+
+    <h2>4.2 ATMを利用してチャージする</h2>
+
+    <p>
+      ATMに現金を入れて、スマホ決済アプリの残高を増やす方法もあります。
+    </p>
+
+    <p>
+      ATMを利用する場合には、スマートフォンだけでなくATM側でも操作を行います。
+    </p>
+
+    <p>
+      まず、ATMでスマートフォンを使ったチャージを選びます。その後、スマホ決済アプリでチャージ方法として「ATM」を選びます。
+    </p>
+
+    <img
+      src="images/app/screen-e0-atm.png"
+      alt="チャージ方法を選ぶ画面のATMの位置を赤枠で示した画面"
+      class="app-screen"
+    >
+
+    <p>
+      ATMチャージを選ぶと、ATMに表示されているQRコードを読み取るための画面が表示されます。
+    </p>
+
+    <img
+      src="images/app/screen-e2-0.png"
+      alt="ATMに表示されているQRコードを読み取るための画面"
+      class="app-screen"
+    >
+
+    <p>
+      ATMの画面に表示されているQRコードをスマートフォンで読み取ります。
+    </p>
+
+    <p>
+      QRコードを読み取ると、スマートフォンの画面に企業番号が表示されます。
+    </p>
+
+    <img
+      src="images/app/screen-e2-1.png"
+      alt="企業番号が表示されている画面"
+      class="app-screen"
+    >
+
+    <p>
+      次に、スマートフォンに表示された企業番号をATMへ入力します。
+    </p>
+
+    <p>
+      その後、ATMにチャージしたい金額の現金を入れます。ATMに表示された入金額を確認し、内容に問題がなければ操作を進めます。
+    </p>
+
+    <p>
+      ATMとスマートフォンで行う操作の流れは、次のとおりです。
+    </p>
+
+    <figure>
+      <figcaption>図5　ATMチャージの操作の流れ</figcaption>
+      <img
+        src="images/figures/figure-05-atm-charge-flow.png"
+        alt="ATM側とスマートフォン側で行う操作からチャージ完了までの流れ"
+        class="figure-image"
+      >
+    </figure>
+
+    <p>
+      すべての操作が完了すると、チャージ完了の画面が表示されます。
+    </p>
+
+    <img
+      src="images/app/screen-e4-1.png"
+      alt="ATMから1,000円をチャージした後の完了画面"
+      class="app-screen"
+    >
+
+    <p>
+      チャージが完了すると、ATMに入れた金額がスマホ決済アプリの残高に加わります。
+    </p>
+
+    <p>
+      また、チャージした内容は、あとから利用履歴で確認できます。
+    </p>
+
+    <div class="point-box">
+      <p class="point-title">ポイント</p>
+      <p>
+        銀行口座やATMを使ってチャージすると、その金額がスマホ決済アプリの残高に加わります。
+      </p>
+    </div>
+
+    <nav class="chapter-nav">
+      <a href="chapter3.html">← 前へ</a>
+      <a href="chapter5.html">次へ →</a>
+    </nav>
+
+  </main>
+
+  <a href="toc.html" class="back-to-toc">
+    目次に戻る
+  </a>
+
+</body>
+
+</html>
+```
