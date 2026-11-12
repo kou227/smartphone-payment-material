@@ -15,7 +15,7 @@ body {
     "Yu Gothic",
     sans-serif;
 
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.8;
 
   color: #222;
@@ -31,19 +31,19 @@ main {
 
 h1 {
   margin: 0 0 32px;
-  font-size: 32px;
+  font-size: 36px;
   line-height: 1.4;
 }
 
 h2 {
   margin: 40px 0 20px;
-  font-size: 28px;
+  font-size: 32px;
   line-height: 1.5;
 }
 
 h3 {
   margin: 32px 0 16px;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.5;
 }
 
@@ -64,7 +64,7 @@ li {
 .app-screen {
   display: block;
 
-  width: min(100%,300px);
+  width: min(100%, 300px);
   height: auto;
 
   margin: 24px auto 32px;
@@ -84,9 +84,10 @@ figure {
 figcaption {
   margin-bottom: 12px;
 
-  font-size: 22px;
+  font-size: 27px;
   font-weight: bold;
   line-height: 1.5;
+  text-align: center;
 }
 
 .point-box {
@@ -102,7 +103,7 @@ figcaption {
 .point-title {
   margin: 0 0 8px;
 
-  font-size: 22px;
+  font-size: 27px;
   font-weight: bold;
 }
 
@@ -119,7 +120,7 @@ figcaption {
   padding: 8px 0;
 
   color: #0066cc;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.8;
 
   text-decoration: underline;
@@ -141,7 +142,7 @@ figcaption {
   color: #222;
   background-color: #fff;
 
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 
   text-decoration: none;
@@ -168,7 +169,7 @@ figcaption {
   color: #222;
   background-color: #fff;
 
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 
   text-align: center;
